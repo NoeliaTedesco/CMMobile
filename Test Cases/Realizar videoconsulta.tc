@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Realizar videoconsulta</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b41b177b-c010-41f3-91f0-0932dee557a8</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>fc5efad5-f45a-493f-9db9-dc85135ee122</id>
+      <masked>false</masked>
+      <name>y</name>
+   </variable>
+</TestCaseEntity>
