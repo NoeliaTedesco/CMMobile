@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CancelarEnSalaEspera</name>
+   <name>Cancelar En Sala Espera</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ba0018a3-dcba-4e25-8065-56b4e4e235e1</testCaseGuid>

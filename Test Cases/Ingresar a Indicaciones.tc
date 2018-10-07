@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ingresar a Indicaciones</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>232e64be-14be-472d-8a6f-1b98ec027888</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>c0b77410-cb37-4f73-9ac5-906a6e0408f3</id>
+      <masked>false</masked>
+      <name>y</name>
+   </variable>
+</TestCaseEntity>

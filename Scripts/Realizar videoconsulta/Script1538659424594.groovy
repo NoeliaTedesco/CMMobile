@@ -15,14 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import io.appium.java_client.AppiumDriver as AppiumDriver
-
 import io.appium.java_client.MultiTouchAction as MultiTouchAction
-
+import org.openqa.selenium.WebElement as WebElement
+import io.appium.java_client.MobileElement
 import io.appium.java_client.TouchAction as TouchAction
 import java.time.Duration;
 
 
-Mobile.startApplication('C:\\Users\\ntedesco\\Documents\\Proyectos\\Frente inovacion\\CMO\\APK\\app-forTestFlavor-release-1.0-37.apk', 
+Mobile.startApplication('C:\\Users\\Noelia\\Documents\\Trabajo\\CMO\\app-forTestFlavor-release-1.0-37.apk', 
     false)
 
 Mobile.openNotifications()
@@ -31,9 +31,9 @@ Mobile.waitForElementPresent(findTestObject('Notificacion/android.widget.TextVie
 
 Mobile.tap(findTestObject('Notificacion/android.widget.TextView8 - OSDE CMOnLine'), 15)
 
-Mobile.waitForElementPresent(findTestObject('Mensaje/Mensaje de texto'), 20)
+Mobile.waitForElementPresent(findTestObject('Mensaje/Ingresar - Mensaje de texto'), 20)
 
-Mobile.tap(findTestObject('Mensaje/Mensaje de texto'), 15)
+Mobile.tap(findTestObject('Mensaje/Ingresar - Mensaje de texto'), 15)
 
 Mobile.tap(findTestObject('popUpInicial/android.widget.Button0 - NO'), 0, FailureHandling.OPTIONAL)
 
@@ -65,7 +65,7 @@ Mobile.tap(findTestObject('Videoconsulta/opcionesVC/Chat/enviarChat'), 15)
 
 Mobile.takeScreenshot()
 
-visualizarBotones(findTestObject('Videoconsulta/opcionesVC/btnChat'))
+visualizarBotones(findTestObject('Videoconsulta/opcionesVC/Chat/ChatAbierto'))
 
 Thread.sleep(600)
 
@@ -118,15 +118,11 @@ void visualizarBotones(TestObject objeto) {
 			AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 			MultiTouchAction multiTouch = new MultiTouchAction(driver)
 			TouchAction action1 = new TouchAction(driver)
-			TouchAction action2 = new TouchAction(driver)
-			int x1 = 50
-			int y1 = 110 
-			int x2 =  Integer.parseInt(objeto.findPropertyValue("x"))
-			int y2 =  Integer.parseInt(objeto.findPropertyValue("y"))
-			action1.press(x1, y1).waitAction(Duration.ofMillis(10000)).release()
-			action2.press(x2, y2).waitAction(Duration.ofMillis(3000)).release()
-			multiTouch.add(action1).add(action2).perform()
-            break
+			
+			WebElement pantallaVC = driver.findElementByXPath("//*[@resource-id = 'ar.com.portalsalud.osde:id/callView']")
+			action1.longPress(pantallaVC).perform()
+			Mobile.tap(objeto, 10)
+            break	
         }
         catch (Exception e) {
 			System.out.println(e)
