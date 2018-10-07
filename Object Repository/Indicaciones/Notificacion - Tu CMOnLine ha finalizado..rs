@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and @instance = '8' and (contains(text(), 'Tu CMOnLine ha finalizado.') or contains(., 'Tu CMOnLine ha finalizado.')) and @resource-id = 'android:id/big_text']</value>
+         <value>//*[@class = 'android.widget.TextView' and @instance = '8' and (contains(text(), 'indicaciones medicas') or contains(., 'indicaciones medicas')) and @resource-id = 'android:id/big_text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tu CMOnLine ha finalizado.</value>
+      <value>indicaciones medicas</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

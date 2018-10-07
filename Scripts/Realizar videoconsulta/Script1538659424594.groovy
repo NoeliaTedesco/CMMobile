@@ -7,7 +7,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testcase.Variable
+import com.kms.katalon.core.testcase.Variable as Variable
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -17,13 +17,11 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.AppiumDriver as AppiumDriver
 import io.appium.java_client.MultiTouchAction as MultiTouchAction
 import org.openqa.selenium.WebElement as WebElement
-import io.appium.java_client.MobileElement
+import io.appium.java_client.MobileElement as MobileElement
 import io.appium.java_client.TouchAction as TouchAction
-import java.time.Duration;
+import java.time.Duration as Duration
 
-
-Mobile.startApplication('C:\\Users\\Noelia\\Documents\\Trabajo\\CMO\\app-forTestFlavor-release-1.0-37.apk', 
-    false)
+Mobile.startApplication('C:\\Users\\Noelia\\Documents\\Trabajo\\CMO\\app-forTestFlavor-release-1.0-37.apk', false)
 
 Mobile.openNotifications()
 
@@ -51,11 +49,7 @@ Mobile.tap(findTestObject('Videoconsulta/btnIngresarVideoconsulta'), 15)
 
 Mobile.waitForElementPresent(findTestObject('Videoconsulta/pantallaVC'), 60)
 
-Mobile.tap(findTestObject('Videoconsulta/pantallaVC'), 10)
-
-Mobile.waitForElementPresent(findTestObject('Videoconsulta/btnChat'), 30)
-
-Mobile.tap(findTestObject('Videoconsulta/opcionesVC/btnChat'), 10)
+visualizarBotones(findTestObject('Videoconsulta/opcionesVC/btnChat'))
 
 Mobile.waitForElementPresent(findTestObject('Videoconsulta/opcionesVC/Chat/campoEscribirChat'), 30)
 
@@ -112,20 +106,21 @@ Mobile.tap(findTestObject('Agradecimientos/btnSalir'), 10)
 Mobile.closeApplication()
 
 void visualizarBotones(TestObject objeto) {
-	int y = 0
+    int y = 0
+
     while (y <= 0) {
         try {
 			AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 			MultiTouchAction multiTouch = new MultiTouchAction(driver)
-			TouchAction action1 = new TouchAction(driver)
-			
-			WebElement pantallaVC = driver.findElementByXPath("//*[@resource-id = 'ar.com.portalsalud.osde:id/callView']")
-			action1.longPress(pantallaVC).perform()
-			Mobile.tap(objeto, 10)
-            break	
+			TouchAction action1 = new TouchAction(driver)	
+			WebElement pantallaVC = driver.findElementByXPath('//*[@resource-id = \'ar.com.portalsalud.osde:id/callView\']')
+            action1.longPress(pantallaVC).perform()
+            Mobile.tap(objeto, 10)
+            break
         }
         catch (Exception e) {
-			System.out.println(e)
+            System.out.println(e)
+
             Mobile.tap(findTestObject('Videoconsulta/pantallaVC'), 10)
         } 
     }
