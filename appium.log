@@ -1,26 +1,31 @@
 [35m[Appium][39m Welcome to Appium v1.8.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 55568
-[35m[Appium][39m   loglevel: info
-[35m[Appium][39m   chromeDriverPort: 55569
-[35m[Appium][39m   tmpDir: C:\Users\Noelia\AppData\Local\Temp\\Katalon\Appium\Temp1538948656808
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:55568
+[35m[Appium][39m   port: 58119
+[35m[Appium][39m   chromeDriverPort: 58120
+[35m[Appium][39m   tmpDir: C:\Users\ntedesco\AppData\Local\Temp\\Katalon\Appium\Temp1539266382653
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:58119
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m74 ms - 83[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m49 ms - 83[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m39 ms - 83[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m46 ms - 83[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"Delay":0,"app":"C:\\Users\\Noelia\\Documents\\Trabajo\\CMO\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"capabilities":{"desiredCapabilities":{"Delay":0,"app":"C:\\Users\\Noelia\\Documents\\Trabajo\\CMO\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"firstMatch":[{"platformName":"android"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"capabilities":{"desiredCapabilities":{"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"firstMatch":[{"platformName":"android"}]}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},null,{"desiredCapabilities":{"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1539266388417 (10:59:48 GMT-0300 (Hora estándar de Argentina))
 [35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
 [35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["Delay","app","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
 [35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.12.0) session
 [35m[Appium][39m Capabilities:
 [35m[Appium][39m   Delay: 0
-[35m[Appium][39m   app: C:\Users\Noelia\Documents\Trabajo\CMO\app-forTestFlavor-release-1.0-37.apk
+[35m[Appium][39m   app: C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk
 [35m[Appium][39m   autoGrantPermissions: true
 [35m[Appium][39m   automationName: uiautomator2
 [35m[Appium][39m   deviceId: 
@@ -31,90 +36,206 @@
 [35m[Appium][39m   platform: ANDROID
 [35m[Appium][39m   platformName: Android
 [35m[Appium][39m   udid: RQ30059PKM
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {"Delay":0,"app":"C:\\Users...
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: Delay, deviceId, platform.
-[35m[BaseDriver][39m Session created with session id: 8ce56908-415b-456e-a515-4560d59eddeb
-[35m[BaseDriver][39m Using local app 'C:\Users\Noelia\Documents\Trabajo\CMO\app-forTestFlavor-release-1.0-37.apk'
+[35m[BaseDriver][39m Session created with session id: a118c04f-5daa-4536-893f-3ee7a5291840
+[35m[BaseDriver][39m Using local app 'C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[AndroidDriver][39m Getting Java version
 [35m[AndroidDriver][39m Java version is: 1.8.0_181
 [35m[ADB][39m Checking whether adb is present
-[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Noelia\.katalon\tools\android_sdk' (newest first):
-[35m[ADB][39m     C:/Users/Noelia/.katalon/tools/android_sdk/build-tools/28.0.2
-[35m[ADB][39m Using adb.exe from C:\Users\Noelia\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\ntedesco\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/ntedesco/.katalon/tools/android_sdk/build-tools/28.0.2
+[35m[ADB][39m Using adb.exe from C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe
 [35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
 [35m[AndroidDriver][39m Using device: RQ30059PKM
-[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\Noelia\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\Noelia\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\Noelia\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\Noelia\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\Noelia\.katalon\tools\android_sdk\build-tools\28.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\Noelia\.katalon\tools\android_sdk'?
+[debug] [35m[ADB][39m Setting device id to RQ30059PKM
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 26
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\ntedesco\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\ntedesco\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\ntedesco\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\ntedesco\.katalon\tools\android_sdk\build-tools\28.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\ntedesco\.katalon\tools\android_sdk'?
 [35m[ADB][39m Checking whether aapt is present
-[35m[ADB][39m Using aapt.exe from C:\Users\Noelia\.katalon\tools\android_sdk\build-tools\28.0.2\aapt.exe
+[35m[ADB][39m Using aapt.exe from C:\Users\ntedesco\.katalon\tools\android_sdk\build-tools\28.0.2\aapt.exe
 [35m[ADB][39m Extracting package and launch activity from manifest
 [35m[ADB][39m Package name: 'ar.com.portalsalud.osde'
 [35m[ADB][39m Main activity name: 'ar.com.portalsalud.osde.activities.SplashActivity'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: ar.com.portalsalud.osde/ar.com.portalsalud.osde.activities.SplashActivity
 [35m[ADB][39m Getting device platform version
-[35m[ADB][39m Using apksigner.bat from C:\Users\Noelia\.katalon\tools\android_sdk\build-tools\28.0.2\apksigner.bat
-[35m[ADB][39m Checking whether zipalign is present
-[35m[ADB][39m Using zipalign.exe from C:\Users\Noelia\.katalon\tools\android_sdk\build-tools\28.0.2\zipalign.exe
-[35m[ADB][39m io.appium.uiautomator2.server was successfully uninstalled
-[35m[ADB][39m io.appium.uiautomator2.server.test was successfully uninstalled
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 8.0.0
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell wm size'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell wm density'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': G3123
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Sony
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Checking app cert for C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\ntedesco\.katalon\tools\android_sdk\build-tools\28.0.2\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\ntedesco\.katalon\tools\android_sdk\build-tools\28.0.2\apksigner.bat' with args 'verify,--print-certs,C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk'
+[debug] [35m[ADB][39m 'C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' is already signed.
+[debug] [35m[ADB][39m Checking app cert for C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\ntedesco\.katalon\tools\android_sdk\build-tools\28.0.2\apksigner.bat' with args 'verify,--print-certs,C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m 'C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.12.0' >= '1.12.0')
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys package io.appium.uiautomator2.server.test'
+[35m[ADB][39m Cannot read version codes of 'C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[35m[ADB][39m Cannot read version names of 'C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[debug] [35m[UiAutomator2][39m Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell ps'
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell appops set io.appium.settings android\:mock_location allow'
 [35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
 [35m[AndroidDriver][39m Got language: 'null' and country: 'null'
-[35m[ADB][39m Successfully extracted 805 strings from 'C:\Users\Noelia\Documents\Trabajo\CMO\app-forTestFlavor-release-1.0-37.apk' resources for '(default)' configuration
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 8200
+[debug] [35m[ADB][39m Forwarding system: 8200 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM forward tcp\:8200 tcp\:6790'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\ntedesco\AppData\Local\Temp\Katalon\Appium\Temp1539266382653\ar.com.portalsalud.osde
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Successfully extracted 805 strings from 'C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM push C\:\\Users\\ntedesco\\AppData\\Local\\Temp\\Katalon\\Appium\\Temp1539266382653\\ar.com.portalsalud.osde\\strings.json /data/local/tmp'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk
+[debug] [35m[ADB][39m Starting 'C:\Users\ntedesco\.katalon\tools\android_sdk\build-tools\28.0.2\apksigner.bat' with args 'verify,--print-certs,C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk'
+[debug] [35m[ADB][39m 'C:\Users\ntedesco\Downloads\app-forTestFlavor-release-1.0-37.apk' is already signed.
+[debug] [35m[ADB][39m Getting install status for ar.com.portalsalud.osde
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell pm list packages ar.com.portalsalud.osde'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'ar.com.portalsalud.osde'
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys package ar.com.portalsalud.osde'
+[debug] [35m[ADB][39m The installed 'ar.com.portalsalud.osde' package does not require upgrade ('1.0.0' >= '1.0.0')
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell am force-stop io.appium.uiautomator2.server'
 [35m[UiAutomator2][39m Starting uiautomator2 server 1.12.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Noelia\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\Users\Noelia\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.12.0.apk' and test from 'C:\nodeJs\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Running command: 'adb -s RQ30059PKM shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
 [35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"RQ30059PKM","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"RQ30059PKM","deviceUDID":"RQ30059PKM","platformVersion":"8.0.0","deviceScreenSize":"720x1280","deviceScreenDensity":320,"deviceModel":"G3123","deviceManufacturer":"Sony","deviceApiLeve...
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"7a18fa5f-01b5-4218-a974-427d54989b29","status":0,"value":"Created Session"}
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'ar.com.portalsalud.osde/ar.com.portalsalud.osde.activities.SplashActivity'. Starting it ourselves
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 8ce56908-415b-456e-a515-4560d59eddeb added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m27875 ms - 1236[39m
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell am start -W -n ar.com.portalsalud.osde/ar.com.portalsalud.osde.activities.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'ar.com.portalsalud.osde' and activity: 'ar.com.portalsalud.osde.activities.SplashActivity' to be focused
+[debug] [35m[ADB][39m Possible activities, to be checked: 'ar.com.portalsalud.osde.activities.SplashActivity', 'ar.com.portalsalud.osde.ar.com.portalsalud.osde.activities.SplashActivity'
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell dumpsys window windows'
+[debug] [35m[ADB][39m Found package: 'ar.com.portalsalud.osde' and fully qualified activity name : 'ar.com.portalsalud.osde.activities.SplashActivity'
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/appium/device/pixel_ratio] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":1.7}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/appium/device/system_bars] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":{\"statusBar\":41}}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/window/current/size] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":{\"height\":1198,\"width\":720}}"
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session a118c04f-5daa-4536-893f-3ee7a5291840 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1539266412392 (11:00:12 GMT-0300 (Hora estándar de Argentina))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Sony G3123 (Android 8.0.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"RQ30059PKM"},"Delay":0,"app":"C:\\Users\\ntedesco\\Downloads\\app-forTestFlavor-release-1.0-37.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"RQ30059PKM","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"RQ30059PKM","deviceUDID":"RQ30059PKM","platformVersion":"8.0.0","deviceScreenSize":"720x1280","deviceScreenDensity":320,"deviceModel":"G3123","deviceManufacturer":"Sony","deviceApiLevel":26,"appPackage":"ar....
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23978 ms - 1212[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m37 ms - 55[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[W3C][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m51 ms - 55[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/timeouts[39m
 [35m[HTTP][39m [90m{"type":"implicit","ms":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/timeouts [39m[33m400[39m [90m30 ms - 5340[39m
+[debug] [35m[W3C][39m Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/timeouts [39m[33m400[39m [90m30 ms - 4380[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/source[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
-[35m[JSONWP Proxy][39m Replacing sessionId 5eacd0c4-2b49-449f-8aea-87a19ea14058 with 8ce56908-415b-456e-a515-4560d59eddeb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source [39m[32m200[39m [90m566 ms - 3226[39m
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/source] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"ar.com.portalsalud.osde\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][720,1198]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"ar.com.portalsalud.osde\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"...
+[35m[JSONWP Proxy][39m Replacing sessionId 7a18fa5f-01b5-4218-a974-427d54989b29 with a118c04f-5daa-4536-893f-3ee7a5291840
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/source [39m[32m200[39m [90m419 ms - 3226[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot [39m[32m200[39m [90m300 ms - 20446[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["a118c04f-5daa-4536-893f-3ee7a5291840"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdaXsc53kv+Pt+qnoD0I2tsRANLgA3gKQIaiFlSaRsWVISW84iJycnmSQnM\\/MV5ivMNa9m3pwk\\nMy\\/mOnNlTnKuLJNjOU4cx7YkyyIpiZu4SCTABeCGBgh0Y+tu9F7PPS+e6kITACkARJGQ\\/f\\/ZkoBG\\ndVV1dXc9\\/3q24v\\/8F39JAAAAAH5Sz3oHAAAA4FcfAgcAAAD4DoEDAAAAfIfAAQAAAL5D4AAAAADf\\n2Zu7Oma2bduyLKUUM4mQ1rparVar1c3dUP0WQ6FQS0tLV1dnV2dXa2tLQ0ODZVmVSiWXy6VnZqam\\nplKpVCaTrVQqPu0DAAAAPN6mBQ5mjkWjnV2d27q3tba2NDY2mlI\\/m8vNpGcmHzxIpVL5fH6zNmco\\npXp6ep47dCiR6AmFQkotVdhEIpFYLNbT0+McOJDL5W7dGh0eGZ6fXxCRzd0Hw4tZREQijtaO4ziO\\n48e2AAAAvnb4yefhYObW1tb9+\\/bt3LmjtbXVtlcJMeVyOZVK3bo1Ojo2ls\\/nN6XUb2pqOnjgwIGD\\nB5oaGx3HyeVyM7Ozs7Ozi4uL2tGBQKAp2hRvj5s6D2ZOpdOXLl0aHR3bxKoOpVQoFAqHwx0dHe3t\\nbQ0NDUQkItlsNpVKz87OlMuVUqnkU8oBgE2XSCTi8fjt22OZTNa27YaGhmKxWC6Xn+0uEUkikah\\/\\nMJlMElEyOfE09yQYDD7bQ7EFvf32W+1tbSsf\\/\\/t\\/+MenvzNb3JPWcAQCgf379h0+\\/FxLS4tlWY9a\\nLBgMJhKJzs7OPXv3XDh\\/4d79+09YBodCoRPHX9...
+[debug] [35m[MJSONWP][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdaXsc53kv+Pt+qnoD0I2tsRANLgA3gKQIaiFlSaRsWVISW84iJycnmSQnM/MV5ivMNa9m3pwk\nMy/mOnNlTnKuLJNjOU4cx7YkyyIpiZu4SCTABeCGBgh0Y+tu9F7PPS+e6kITACkARJGQ/f/ZkoBG\ndVV1dXc9/3q24v/8F39JAAAAAH5Sz3oHAAAA4FcfAgcAAAD4DoEDAAAAfIfAAQAAAL5D4AAAAADf\n2Zu7Oma2bduyLKUUM4mQ1rparVar1c3dUP0WQ6FQS0tLV1dnV2dXa2tLQ0ODZVmVSiWXy6VnZqam\nplKpVCaTrVQqPu0DAAAAPN6mBQ5mjkWjnV2d27q3tba2NDY2mlI/m8vNpGcmHzxIpVL5fH6zNmco\npXp6ep47dCiR6AmFQkotVdhEIpFYLNbT0+McOJDL5W7dGh0eGZ6fXxCRzd0Hw4tZREQijtaO4ziO\n48e2AAAAvnb4yefhYObW1tb9+/bt3LmjtbXVtlcJMeVyOZVK3bo1Ojo2ls/nN6XUb2pqOnjgwIGD\nB5oaGx3HyeVyM7Ozs7Ozi4uL2tGBQKAp2hRvj5s6D2ZOpdOXLl0aHR3bxKoOpVQoFAqHwx0dHe3t\nbQ0NDUQkItlsNpVKz87OlMuVUqnkU8oBgE2XSCTi8fjt22OZTNa27YaGhmKxWC6Xn+0uEUkikah/\nMJlMElEyOfE09yQYDD7bQ7EFvf32W+1tbSsf//t/+MenvzNb3JPWcAQCgf379h0+/FxLS4tlWY9a\nLBgMJhKJzs7OPXv3XDh/4d79+09YBodCoRPHX9u1a5dt2wsLC5cuX04mk7ncouM4WmsRYWalVCAQ\naGlp3t2/+8CBwY54/LVXX21pbjl3/vyT1z2Yppz29vbnnju0vbc3HA4vW0BEstnc2NjYteFraNAB\n2OJCod...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/screenshot [39m[32m200[39m [90m1209 ms - 574554[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
-[35m[JSONWP Proxy][39m Replacing sessionId 5eacd0c4-2b49-449f-8aea-87a19ea14058 with 8ce56908-415b-456e-a515-4560d59eddeb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source [39m[32m200[39m [90m1200 ms - 50356[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot [39m[32m200[39m [90m437 ms - 127498[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/source[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
-[35m[JSONWP Proxy][39m Replacing sessionId 5eacd0c4-2b49-449f-8aea-87a19ea14058 with 8ce56908-415b-456e-a515-4560d59eddeb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source [39m[32m200[39m [90m293 ms - 23294[39m
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/source] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/source] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"ar.com.portalsalud.osde\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][720,1198]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"ar.com.portalsalud.osde\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"...
+[35m[JSONWP Proxy][39m Replacing sessionId 7a18fa5f-01b5-4218-a974-427d54989b29 with a118c04f-5daa-4536-893f-3ee7a5291840
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/source [39m[32m200[39m [90m757 ms - 8630[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot [39m[32m200[39m [90m314 ms - 70998[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["a118c04f-5daa-4536-893f-3ee7a5291840"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOydd3gcxd3HZ7Zc75JOvVqSLUuWLTe59w6mg0ko4aWTAgkheZPwhpIChBZ6IBASEgjYYBtjcAXc\\nLRdZltWt3uv1tnfb5v1jpfNZzSfZkk0yn4cH6\\/bmtszd7nzn1wbG\\/KQUYDAYDAaDwYwlxOU+AQwG\\ng8FgMP\\/5YMGBwWAwGAxmzMGCA4PBYDAYzJiDBQcGg8FgMJgxBwsODAaDwWAwYw51aXdHElBBQxkF\\naRJCAEQEOAH5ORTgRYQu7aF6ISDQKcn0aPm0JGVesnKCWW7WUTIKegNih4OraA+cbvKVtvibrayP\\nFcfkDDAYDAaDwVwIeKnSYgkIEk2yacnKmamqdLM8Wk\\/JKOgLiG0OrrLNX9jIlLUyPW7+0soOioBz\\n0lU\\/WGCaM0GtV5E0Cfs1QAiwPOpwcttPOzcedzT0BMQx0D0QAjlFyGlIERAAgBDiReDnRJYfG5GF\\nwWAwGMx3jUsgOEgCpkfLrp9hWD5Zmx4tU9D93TQIAU9ALG1hvix27ixxdbv4SzLqxxnp788x3jbP\\nGK2jORG127mqDn91Z6DLybM8UsuJOCOdHa9Ij5ZHakgCwvI2\\/1\\/3W74qdl1CUwdNQr2KNKjIKYnK\\nrFhZlJYGAAgItNm5shamqiPg9gsuRhgLlYPBYC4X8zLUk+MVu0vcLTZWQRNmHWX38m7\\/WNlQ52Wo\\nEQLzMtShG4\\/WeAEABbXeMTrooGgVxNhd5neU1+9ImBgjH7h91Qt1438yVzgX61JRyYgbZhruXmRK\\ni5LL6f4GBgkIgVZBzE1XT01SXpOnf21vz4Eqz0WOwTol+dR1MS...
+[debug] [35m[MJSONWP][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOydd3gcxd3HZ7Zc75JOvVqSLUuWLTe59w6mg0ko4aWTAgkheZPwhpIChBZ6IBASEgjYYBtjcAXc\nLRdZltWt3uv1tnfb5v1jpfNZzSfZkk0yn4cH6/bmtszd7nzn1wbG/KQUYDAYDAaDwYwlxOU+AQwG\ng8FgMP/5YMGBwWAwGAxmzMGCA4PBYDAYzJiDBQcGg8FgMJgxBwsODAaDwWAwYw51aXdHElBBQxkF\naRJCAEQEOAH5ORTgRYQu7aF6ISDQKcn0aPm0JGVesnKCWW7WUTIKegNih4OraA+cbvKVtvibrayP\nFcfkDDAYDAaDwVwIeKnSYgkIEk2yacnKmamqdLM8Wk/JKOgLiG0OrrLNX9jIlLUyPW7+0soOioBz\n0lU/WGCaM0GtV5E0Cfs1QAiwPOpwcttPOzcedzT0BMQx0D0QAjlFyGlIERAAgBDiReDnRJYfG5GF\nwWAwGMx3jUsgOEgCpkfLrp9hWD5Zmx4tU9D93TQIAU9ALG1hvix27ixxdbv4SzLqxxnp788x3jbP\nGK2jORG127mqDn91Z6DLybM8UsuJOCOdHa9Ij5ZHakgCwvI2/1/3W74qdl1CUwdNQr2KNKjIKYnK\nrFhZlJYGAAgItNm5shamqiPg9gsuRhgLlYPBYC4X8zLUk+MVu0vcLTZWQRNmHWX38m7/WNlQ52Wo\nEQLzMtShG4/WeAEABbXeMTrooGgVxNhd5neU1+9ImBgjH7h91Qt1438yVzgX61JRyYgbZhruXmRK\ni5LL6f4GBgkIgVZBzE1XT01SXpOnf21vz4Eqz0WOwTol+dR1MSuytUoZ0dDDvnfAerTG2+7gWB7x\nAkIAEBBQJFTLidRI2bqpuu/NNWbHK/7vmpjUSNmre3sC3MVKAMmVMzle8YMFpoWZGqOa7NdAEFG7\ng9t5xv...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840/screenshot [39m[32m200[39m [90m335 ms - 93770[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
-[35m[JSONWP Proxy][39m Replacing sessionId 5eacd0c4-2b49-449f-8aea-87a19ea14058 with 8ce56908-415b-456e-a515-4560d59eddeb
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/source [39m[32m200[39m [90m474 ms - 36244[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb/screenshot [39m[32m200[39m [90m457 ms - 254490[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 8ce56908-415b-456e-a515-4560d59eddeb from our master session list
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/8ce56908-415b-456e-a515-4560d59eddeb [39m[32m200[39m [90m312 ms - 76[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.deleteSession() with args: ["a118c04f-5daa-4536-893f-3ee7a5291840"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1539266432974 (11:00:32 GMT-0300 (Hora estándar de Argentina))
+[35m[Appium][39m Removing session a118c04f-5daa-4536-893f-3ee7a5291840 from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[JSONWP Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/7a18fa5f-01b5-4218-a974-427d54989b29] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"7a18fa5f-01b5-4218-a974-427d54989b29\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM shell am force-stop ar.com.portalsalud.osde'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
+[debug] [35m[ADB][39m Running 'C:\Users\ntedesco\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s RQ30059PKM forward --remove tcp\:8200'
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1539266433438 (11:00:33 GMT-0300 (Hora estándar de Argentina))
+[debug] [35m[MJSONWP][39m Received response: null
+[debug] [35m[MJSONWP][39m But deleting session, so not returning
+[debug] [35m[MJSONWP][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/a118c04f-5daa-4536-893f-3ee7a5291840 [39m[32m200[39m [90m468 ms - 76[39m
 [35m[HTTP][39m [90m[39m

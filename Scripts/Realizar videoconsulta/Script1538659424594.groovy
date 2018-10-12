@@ -21,17 +21,18 @@ import io.appium.java_client.MobileElement as MobileElement
 import io.appium.java_client.TouchAction as TouchAction
 import java.time.Duration as Duration
 
-Mobile.startApplication('C:\\Users\\Noelia\\Documents\\Trabajo\\CMO\\app-forTestFlavor-release-1.0-37.apk', false)
+Mobile.startApplication('C:\\Users\\ntedesco\\Documents\\Proyectos\\Frente inovacion\\CMO\\APK\\app-forTestFlavor-release-1.0-37.apk', 
+    false)
 
 Mobile.openNotifications()
 
-Mobile.waitForElementPresent(findTestObject('Notificacion/android.widget.TextView8 - OSDE CMOnLine'), 20)
+Mobile.waitForElementPresent(findTestObject('Notificacion/android.widget.TextView8 - OSDE CMOnLine'), 60)
 
 Mobile.tap(findTestObject('Notificacion/android.widget.TextView8 - OSDE CMOnLine'), 15)
 
-Mobile.waitForElementPresent(findTestObject('Mensaje/Ingresar - Mensaje de texto'), 20)
+Mobile.waitForElementPresent(findTestObject('Mensaje/Ingresar - Mensaje de texto'), 10)
 
-Mobile.tap(findTestObject('Mensaje/Ingresar - Mensaje de texto'), 15)
+Mobile.tap(findTestObject('Mensaje/Ingresar - Mensaje de texto'), 30)
 
 Mobile.tap(findTestObject('popUpInicial/android.widget.Button0 - NO'), 0, FailureHandling.OPTIONAL)
 
@@ -46,6 +47,23 @@ Mobile.tap(findTestObject('Pantalla principal/brnAceptarTiempoEspera'), 15, Fail
 Mobile.waitForElementPresent(findTestObject('Videoconsulta/btnIngresarVideoconsulta'), 60)
 
 Mobile.tap(findTestObject('Videoconsulta/btnIngresarVideoconsulta'), 15)
+
+Mobile.verifyElementVisible(findTestObject('Sala Espera/android.widget.TextView0 - Te damos la bienvenida.'), 15, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Sala Espera/android.widget.TextView0 - Ante conexiones muy lentas la aplicacin pasar automticamente a modo audio.'), 
+    20, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Sala Espera/android.widget.TextView0 - En caso de cortes de conexin la aplicacin se reconectar.'), 
+    20, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Sala Espera/android.widget.TextView0 - Si utilizas un smartphone puedes apagar la pantalla o usar otras aplicaciones. El dispositivo sonar cuando inicie tu consulta.'), 
+    20, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Sala Espera/android.widget.TextView0 - Al finalizar la Consulta Mdica Online recibirs un mail o SMS donde podrs ver las indicacionesmdicas y descargarte el certificado de atencin.'), 
+    20, FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Sala Espera/android.widget.TextView0 - En breve iniciars tu videoconsulta.'), 
+    20)
 
 Mobile.waitForElementPresent(findTestObject('Videoconsulta/pantallaVC'), 60)
 
@@ -110,12 +128,18 @@ void visualizarBotones(TestObject objeto) {
 
     while (y <= 0) {
         try {
-			AppiumDriver<?> driver = MobileDriverFactory.getDriver()
-			MultiTouchAction multiTouch = new MultiTouchAction(driver)
-			TouchAction action1 = new TouchAction(driver)	
-			WebElement pantallaVC = driver.findElementByXPath('//*[@resource-id = \'ar.com.portalsalud.osde:id/callView\']')
+            AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+
+            MultiTouchAction multiTouch = new MultiTouchAction(driver)
+
+            TouchAction action1 = new TouchAction(driver)
+
+            WebElement pantallaVC = driver.findElementByXPath('//*[@resource-id = \'ar.com.portalsalud.osde:id/callView\']')
+
             action1.longPress(pantallaVC).perform()
+
             Mobile.tap(objeto, 10)
+
             break
         }
         catch (Exception e) {
@@ -125,3 +149,4 @@ void visualizarBotones(TestObject objeto) {
         } 
     }
 }
+

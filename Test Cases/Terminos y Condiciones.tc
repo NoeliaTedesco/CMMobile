@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Terminos y Condiciones</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcaa15fb-cc32-4c1d-9bc2-adeaa5cbba8c</testCaseGuid>
+   <variable>
+      <defaultValue>'Términos y condiciones de uso sitio web consultamedica.osde.com.ar'</defaultValue>
+      <description></description>
+      <id>c4c19103-6656-454e-ab76-5b278f13093f</id>
+      <masked>false</masked>
+      <name>Txt1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Por favor lea atentamente estos términos y condiciones antes de descargar y utilizar la aplicación, en tanto ello implica su aceptación plena y sin reservas. Tenga en cuenta que a fin de utilizar la aplicación su teléfono celular debe operar con el sistema Android (versión 5.1 en adelante) o IOS (versión 10 en adelante) Le recordamos que el usuario deberá asumir los costos de telefonía celular en los que pueda incurrir al utilizar la aplicación.'</defaultValue>
+      <description></description>
+      <id>7e6127cd-eb56-45f8-9897-90450c816e1e</id>
+      <masked>false</masked>
+      <name>Txt2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1. Uso del sitio.'</defaultValue>
+      <description></description>
+      <id>7b33c5a6-2212-4959-9eea-edb7311b89bf</id>
+      <masked>false</masked>
+      <name>Txt3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b50eeda-3c2d-4615-a14c-9e433b0cf3e7</id>
+      <masked>false</masked>
+      <name>Txt4</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7067e77f-319b-4ed6-8922-346935038659</id>
+      <masked>false</masked>
+      <name>Txt5</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a6a1dc7b-19d3-4a3e-ab2b-66097fc50ff3</id>
+      <masked>false</masked>
+      <name>Txt6</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dd530ba1-8efd-4a9c-82cc-1cdd84f5be00</id>
+      <masked>false</masked>
+      <name>Txt7</name>
+   </variable>
+   <variable>
+      <defaultValue>'2.1. Para poder utilizar las prestaciones de este sitio usted deberá aceptar previamente los términos y condiciones. El sitio no podrá ser utilizado si usted no los acepta en forma expresa.'</defaultValue>
+      <description></description>
+      <id>eb584b83-0909-48d4-b077-43741ff47748</id>
+      <masked>false</masked>
+      <name>Txt10</name>
+   </variable>
+   <variable>
+      <defaultValue>'3. Cambios en los términos y condiciones.'</defaultValue>
+      <description></description>
+      <id>bb522c1b-96bc-4b0d-b36c-58fadfbe10dd</id>
+      <masked>false</masked>
+      <name>Txt11</name>
+   </variable>
+   <variable>
+      <defaultValue>'3.1. Podrán realizarse cambios en los términos y condiciones en cualquier momento. Cuando se introduzcan estos cambios se publicará una nueva copia en el sitio.'</defaultValue>
+      <description></description>
+      <id>9aaff2ba-4c50-4e46-9175-4c356cfedb3c</id>
+      <masked>false</masked>
+      <name>Txt12</name>
+   </variable>
+   <variable>
+      <defaultValue>'3.2. Usted reconoce y acepta que el uso del sitio luego de la fecha de publicación de los términos y condiciones o sus modificaciones se considerará una aceptación lisa y llana de los actualizados. Recomendamos efectúe una revisión periódica para mantenerse informado acerca de la posible existencia de cambios.'</defaultValue>
+      <description></description>
+      <id>fbc5da43-2157-4682-a4f3-36ddf8d7782f</id>
+      <masked>false</masked>
+      <name>Txt13</name>
+   </variable>
+   <variable>
+      <defaultValue>'3.3 Es condición para hacer uso del sitio que usted se encuentra al día en el pago de la cuota del plan que contrató con OSDE; no obstante OSDE puede eventualmente en el futuro determinar la aplicación de coseguros o topes para poder acceder a los servicios que brinda consultamedica.osde.com.ar, lo que será debidamente informado a través de estos términos y condiciones.'</defaultValue>
+      <description></description>
+      <id>4abb852f-ee99-4e41-bd46-c12fd26b5111</id>
+      <masked>false</masked>
+      <name>Txt14</name>
+   </variable>
+   <variable>
+      <defaultValue>'4. Cuentas.'</defaultValue>
+      <description></description>
+      <id>017e86ff-0c16-40d8-9f91-4fbc6c6d8066</id>
+      <masked>false</masked>
+      <name>Txt15</name>
+   </variable>
+   <variable>
+      <defaultValue>'4.1. Para poder acceder a las prestaciones que brinda el sitio, deberá ser mayor de edad de conformidad a la ley argentina, responsabilizándose por la exactitud de la información personal que nos brinde a través del uso del sitio. En el caso de que la Información que nos brinde sea errada o incompleta, imposibilitando la efectiva comprobación e identificación de usted como usuario, OSDE tendrá el derecho de cancelar el servicio, quedando exento de cualquier responsabilidad o resarcimiento hacia usted.'</defaultValue>
+      <description></description>
+      <id>11c1e2aa-d82a-4e0c-8801-cddf4e408fa1</id>
+      <masked>false</masked>
+      <name>Txt16</name>
+   </variable>
+   <variable>
+      <defaultValue>'4.2. Para el caso de que tome conocimiento de un uso no autorizado de su identidad u otra infracción, debe notificarnos dicha circunstancia en forma inmediata a través de la sección '</defaultValue>
+      <description></description>
+      <id>4d4be96a-e6f8-45ce-8bc9-71801a8cffdf</id>
+      <masked>false</masked>
+      <name>Txt17</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contacto'</defaultValue>
+      <description></description>
+      <id>18da8691-abbf-4bdd-a60c-f655c4cadebc</id>
+      <masked>false</masked>
+      <name>Txt18</name>
+   </variable>
+   <variable>
+      <defaultValue>'de su página web o mediante la remisión de un correo electrónico a '</defaultValue>
+      <description></description>
+      <id>f3cc8f91-b036-449c-a05c-c457736001d7</id>
+      <masked>false</masked>
+      <name>Txt19</name>
+   </variable>
+   <variable>
+      <defaultValue>'contacto@osde.com.ar'</defaultValue>
+      <description></description>
+      <id>d186d8a2-6f16-42fc-94f3-23b2e759cc84</id>
+      <masked>false</masked>
+      <name>Txt20</name>
+   </variable>
+   <variable>
+      <defaultValue>'4.3. Usted acepta ser el único responsable de toda la actividad que tenga lugar en el sitio. OSDE en ningún momento es, o puede ser, responsable de pérdidas o daños que se deriven de un uso no autorizado del servicio.'</defaultValue>
+      <description></description>
+      <id>192ddc40-4f7e-4dd8-865b-212eaaf649f0</id>
+      <masked>false</masked>
+      <name>Txt21</name>
+   </variable>
+   <variable>
+      <defaultValue>'4.4. Usted podrá utilizar el sitio en relación a los menores de edad u otras personas bajo su tutela sobre los que ejerza la representación legal y/o tenga adheridos a su plan médico debiendo informar dicha situación en el momento de solicitar el servicio.'</defaultValue>
+      <description></description>
+      <id>6711e11c-7661-4c0b-a1d9-d54d0b0e5488</id>
+      <masked>false</masked>
+      <name>Txt22</name>
+   </variable>
+   <variable>
+      <defaultValue>'4.5. Los datos aportados forman parte de un banco de datos de OSDE, con domicilio en L. N. Alem 1067, piso 9, CABA y serán tratados para brindar servicios a los asociados. El titular de los datos personales no se encuentra obligado a proporcionar información sensible y se responsabiliza por la exactitud de los datos proporcionados. El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita, a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto, conforme lo establecido en el artículo 14, inciso 3 de la Ley N° 25.326. La Dirección Nacional de Protección de Datos Personales, órgano de control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales.'</defaultValue>
+      <description></description>
+      <id>3a7b8ce8-31a5-49d8-bb1b-09420e5f03a0</id>
+      <masked>false</masked>
+      <name>Txt23</name>
+   </variable>
+   <variable>
+      <defaultValue>'5. Restricciones generales en el uso del sitio.'</defaultValue>
+      <description></description>
+      <id>187b6b5d-52d5-45c2-bf76-a934fb28dbe7</id>
+      <masked>false</masked>
+      <name>Txt24</name>
+   </variable>
+   <variable>
+      <defaultValue>'5.1. OSDE lo autoriza a acceder y utilizar el sitio con sujeción a las condiciones específicas que a continuación se indican. Su inobservancia constituirá un incumplimiento de los presentes términos y condiciones.'</defaultValue>
+      <description></description>
+      <id>fd254acb-0f15-4e6b-8266-3f9844a075d6</id>
+      <masked>false</masked>
+      <name>Txt25</name>
+   </variable>
+   <variable>
+      <defaultValue>'5.2. Usted se obliga a no utilizar la plataforma para: I. recopilar direcciones de correo electrónico u otra información de contacto de otros usuarios por medios electrónicos u otros medios con la finalidad de enviar correos electrónicos no solicitados u otras comunicaciones no solicitadas; II. usarlo de forma ilegal o de forma que pueda dañar, deshabilitar, sobrecargar o perjudicar el sitio; III. usar secuencias de comandos automatizadas para recopilar información a través del sitio o para interactuar de cualquier otro modo con los mismos; IV. cargar, publicar, transmitir, compartir, almacenar o facilitar cualquier contenido que se considere dañino, amenazante, ilegal, difamatorio, infractor, abusivo, acosador, vulgar u obsceno, fraudulento, que vulnere el derecho a la intimidad y la propia imagen, que sea malicioso o cuestionable por motivos de raza, etnia o cualquier otro; V. cargar, publicar, transmitir, compartir, almacenar o facilitar publicidades, imágenes, frases y/o fotografías que no posean las autorizaciones correspondientes; VI. registrar más de una cuenta de usuario, registrarla en nombre de otra persona o registrar una cuenta de usuario en nombre de un grupo o entidad sin la autorización correspondiente; VII. realizar manifestaciones falsas o proporcionar información falsa; VIII. cargar, publicar, transmitir, compartir, almacenar o facilitar publicidad no solicitada o no autorizada, ofrecimientos ilícitos, materiales promocionales, spam, o cualquier otro tipo de comunicaciones ilícitas; IX. cargar, publicar, transmitir, compartir, almacenar o facilitar en el sitio datos personales de cualquier tercero sin la autorización correspondiente; X. cargar, publicar, transmitir, compartir o facilitar material que contenga virus informáticos o cualquier otro código, archivo o programa informático diseñado para interrumpir, destruir o limitar la funcionalidad de cualquier software o hardware o equipo de telecomunicaciones; XI. cargar, publicar, transmitir, compartir, almacenar o facilitar contenido que constituya, incite o proporcione instrucciones para cometer delitos, que infrinja los derechos de un tercero, dé lugar responsabilidades o vulnere cualquier ley de carácter nacional o internacional; XII. cargar, publicar, transmitir, compartir, almacenar o facilitar contenido que, a criterio exclusivo de OSDE, sea cuestionable o que restrinja o impida el uso o goce del sitio por otras personas, o que pueda exponer a OSDE o a sus usuarios a daños o responsabilidades de cualquier tipo; XIII. distribuir los archivos de usuario (conforme se lo define a continuación) sin la previa autorización por escrito de OSDE; XIV. alterar o modificar ninguna parte del sitio; XV. acceder a los archivos de usuario (conforme se lo define a continuación) o a otros contenidos ofrecidos a través del sitio utilizando cualquier tecnología o medio distintos de los utilizados en el propio sitio, o cualquier otro que OSDE designe explícitamente a tal efecto; XVI. eludir, desactivar o manipular de cualquier otra forma las funciones de seguridad del sitio u otras funciones que (i) impidan o restrinjan el uso o copia de los archivos de los usuarios o de los contenidos de OSDE, o (ii) que aplique limitaciones al uso del sitio o de los contenidos que se ofrecen a través del mismo; XVII. usar el sitio para fines comerciales sin la previa autorización por escrito de OSDE. Entre los usos comerciales prohibidos se incluyen, sin limitación alguna: a. la oferta remunerada para acceso a contenidos del sitio o a cualquiera de sus prestaciones a través de este o de otro sitio con el fin principal de obtener ingresos por publicidad o suscripciones; y b. la redistribución de los servicios con el fin principal de generar ingresos a partir de una actividad empresarial sustancialmente similar o comparable a la desarrollada por OSDE, que no haya sido expresamente autorizada por OSDE por escrito; XVIII. ofrecer servicios, con fines comerciales, a los usuarios del sitio con respecto a sus archivos de usuario; XIX. cubrir u oscurecer anuncios publicitarios en cualquier página del sitio por cualquier medio; y usar el sitio y sus prestaciones en forma contraria a las leyes y reglamentaciones aplicables.'</defaultValue>
+      <description></description>
+      <id>375d4a62-40ac-4776-aed5-484746e9e113</id>
+      <masked>false</masked>
+      <name>Txt26</name>
+   </variable>
+   <variable>
+      <defaultValue>'5.3. Usted se obliga a cumplir con todas las demás disposiciones de los términos y condiciones en todo momento mientras use el sitio.'</defaultValue>
+      <description></description>
+      <id>db0b3d7c-14b4-40eb-a93b-54647bdd908b</id>
+      <masked>false</masked>
+      <name>Txt27</name>
+   </variable>
+   <variable>
+      <defaultValue>'5.4. OSDE innova de manera constante con el fin de ofrecer a sus usuarios la mejor experiencia posible. De esta forma, usted reconoce y acepta que la forma y naturaleza de los servicios prestados por OSDE podrá variar en cualquier momento sin necesidad de aviso previo.'</defaultValue>
+      <description></description>
+      <id>e6126d88-d56d-4934-97a2-ce480cfa1616</id>
+      <masked>false</masked>
+      <name>Txt28</name>
+   </variable>
+   <variable>
+      <defaultValue>'5.5. Usted reconoce ser el único responsable del incumplimiento de sus obligaciones previstas en estos términos y condiciones y de las consecuencias (incluyendo cualesquiera pérdidas o daños en que OSDE pueda incurrir) derivadas de dicho incumplimiento. Asimismo, el sitio se ofrece a usted en forma exclusiva para su uso personal y no comercial.'</defaultValue>
+      <description></description>
+      <id>9a76213e-a724-4738-863b-ea4202d87155</id>
+      <masked>false</masked>
+      <name>Txt29</name>
+   </variable>
+   <variable>
+      <defaultValue>'5.6. Usted reconoce que en la medida máxima permitida por la ley, no garantizamos el contenido de cualquier consejo u otras respuestas de cualquier profesional médico participante.'</defaultValue>
+      <description></description>
+      <id>aece2acd-4850-4502-a76e-c640506393f0</id>
+      <masked>false</masked>
+      <name>Txt30</name>
+   </variable>
+   <variable>
+      <defaultValue>'6. Política de derechos de autor.'</defaultValue>
+      <description></description>
+      <id>6e0445e1-6b33-40ce-aa3c-646ae588dd9b</id>
+      <masked>false</masked>
+      <name>Txt31</name>
+   </variable>
+   <variable>
+      <defaultValue>'6.1. OSDE aplica una política de derechos de autor clara en relación con los archivos de usuario que infrinjan presuntamente los derechos de autor de un tercero.'</defaultValue>
+      <description></description>
+      <id>604255e9-deed-4cea-993e-c797feb45faa</id>
+      <masked>false</masked>
+      <name>Txt32</name>
+   </variable>
+   <variable>
+      <defaultValue>'6.2. Como parte de su política de derechos de autor, OSDE cancelará el acceso al sitio de cualquier usuario considerado como infractor. Un infractor es un usuario al que se le ha notificado determinada actividad transgresora.'</defaultValue>
+      <description></description>
+      <id>5caa4b78-f12c-4163-abdc-ff4367747f46</id>
+      <masked>false</masked>
+      <name>Txt33</name>
+   </variable>
+   <variable>
+      <defaultValue>'6.3. Usted declara y garantiza que es propietario de la información o documentación que pudiera transmitir a través del sitio o que de otro modo posee los derechos suficientes para otorgar la licencia referida en la sección 8 del presente. Usted acepta hacerse expresamente responsable de cualquier reclamo en este sentido.'</defaultValue>
+      <description></description>
+      <id>710c5b00-7425-4aec-9b85-b5f204cd94ba</id>
+      <masked>false</masked>
+      <name>Txt34</name>
+   </variable>
+   <variable>
+      <defaultValue>'7. Contenidos de OSDE en el sitio.'</defaultValue>
+      <description></description>
+      <id>61ccf2ca-25f6-4694-a1a7-5bf2f2395215</id>
+      <masked>false</masked>
+      <name>Txt35</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>205b092b-5bf6-4728-b54a-388200ff92d8</id>
+      <masked>false</masked>
+      <name>Txt36</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>225554a6-de39-48d4-9528-5d7cbf114732</id>
+      <masked>false</masked>
+      <name>Txt37</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f923e62-bfd7-4303-b9e6-5a60292f8a48</id>
+      <masked>false</masked>
+      <name>Txt48</name>
+   </variable>
+</TestCaseEntity>
